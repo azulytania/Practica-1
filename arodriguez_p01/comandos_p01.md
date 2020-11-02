@@ -62,7 +62,8 @@ ctrl + c
 [ls] [ -lth] [ SarsCov-2.txt] 
 [chmod] [777] [SarsCov-2.txt]
 [./] [] [SarsCov-2.tx]
-### En la familia Corvidae se encuentras los alfa-coronavirus y beta-coronavirus 
+
+En la familia Corvidae se encuentras los alfa-coronavirus y beta-coronavirus 
 SARS-coV2 que infectan principalmente a mamíferos; La estructura del genoma 
 ya está estudiado lo que permite generar pruebas de PCR para su identificación  
 así como las mutaciones que puedan presentarse en el. Durante la infección el 
@@ -76,11 +77,16 @@ mucho tiempo y una inversión alta de dinero.
 *Respuesta 2*
 
 [touch][][SarsCov-2_Spike.txt]
+
 [nano][][SarsCov-2_Spike.txt]
+
 [ls] [ -lth] [SarsCov-2_Spike.txt]
+
 [chmod] [777] [SarsCov-2_Spike.txt]
+
 [./] [] [SarsCov-2_Spike.txt]
-### Esta proteína se encarga se encarga mediar la union del coronavirus con la
+
+Esta proteína se encarga se encarga mediar la union del coronavirus con la
 célula huésped ya que contiene dos dominios (S1 y S2) que le van a permitir
 unirse a receptores específicos. De igual forma, debe haber una transición
 de la conformación de prefusión a posfusión
@@ -90,7 +96,9 @@ de la conformación de prefusión a posfusión
 **Respuesta 1**
 
 [ln] [-s ~] [/filtered/splike_a.faa.txt]
+
 [ls] [-s ~] [/filtered/splike_b.faa.txt]
+
 [ls] [-s ~] [/filtered/splike_c.faa.txt]
 
 **Respuesta 2**
@@ -115,7 +123,8 @@ de la conformación de prefusión a posfusión
 **Respuesta 5**
 
 [mv] [] [/Users/azulytania/GenomicaComputacional/arodriguez_p01/data/raw_data/spike_*.faa]
-#Las ligas simbólicas suaves creadas en data/filtered desaparecieron, dicho de otra forma, se
+
+Las ligas simbólicas suaves creadas en data/filtered desaparecieron, dicho de otra forma, se
 rompen 
  
 **Respuesta 6**
@@ -133,12 +142,12 @@ CGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAAC
 **Respuesta 7**
 
 [grep]  [‘>’]  [sarscov2_assembly.fasta.gz | wc -l]
-      35
+ ### 35
 [grep] [‘>’] [sarscov2_genome.fasta | wc -l]
        1
 **Respuesta 8**
 
-8. [head] [-12]  [SRR10971381_R2.fastq]
+[head] [-12]  [SRR10971381_R2.fastq]
 @SRR10971381.512_2
 CGTGGAGTATGGCTACATACTACTTATTTGATGAGTCTGGTGAGTTTAAAGTGGCTTCACATATGTATTGTTCTTTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATCAACTCAATATGAGT
 +
@@ -154,11 +163,11 @@ FFFFFFFFFFFFAFFFAFFFFFF6A//F//FFF
 
 
 [grep] [‘@‘] [SRR10971381_R2.fastq | wc -l]
-  130022
+### 130022
 
 **Respuesta 9**
 
-### El formato .fna hace referencia a secuencias de nucleótidos mientras que .faa a secuencias
+El formato .fna hace referencia a secuencias de nucleótidos mientras que .faa a secuencias
 de aminoácidos. Por otra parte .fastaq es un formato basado en texto para almacenar tanto una
 secuencia biológica la linea con el @ es una forma de identificar la secuencia, la segunda linea
 son letras de secuencia de nucleótidos sin procesar, en la tercer linea hay un  '+' y
@@ -168,12 +177,12 @@ descripción), finalmente la línea 4 codifica los valores de calidad para la se
 
 **Respuesta 10**
 
-### Con el comando less -S organiza la información en columnas y filas,  mientras que 
+Con el comando less -S organiza la información en columnas y filas,  mientras que 
 less muestra la información seguida. 
 
 **Respuesta 11**
 
 [cut]  [-f3] [ sarscov2_genome.gff3.txt | grep 'gene'| wc -l]
-      11
-### CDS es una region que pertence a un gene 
+### 11
+CDS es una region que pertence a un gene 
 
