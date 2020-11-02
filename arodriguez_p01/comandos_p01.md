@@ -33,34 +33,44 @@ momento pero puede ser de utilidad en un futuro, no se suben al repositorio.
 
 # Parte II.
 
-**Respuesta 1 **
+**Respuesta 1:**
  
 [ls] [-l] [delay.sh]
+
 [chmod] [777] [delay.sh]
 
-**Respuesta 2 **
+**Respuesta 2:**
 
 [./] [] [delay.sh]
+
 Después de la Parte I. necesito un descanso de exactamente 30 segundos.
 
-**Respuesta 3 **
+**Respuesta 3:**
 
 #!/bin/bash
+
 echo "Después de la Parte I. necesito un descanso de exactamente 30 segundos."
-sleep 
+
+sleep
+
 echo "Ya puedo continuar!"
 
-**Respuesta 4**
+**Respuesta 4:**
+
 ctrl + c
 
 # Parte III
  
-**Respuesta 1**
+**Respuesta 1:**
 
 [touch] [] [SarsCov-2.txt]
+
 [nano] [] [SarsCov-2.txt]
-[ls] [ -lth] [ SarsCov-2.txt] 
+
+[ls] [ -lth] [ SarsCov-2.txt]
+
 [chmod] [777] [SarsCov-2.txt]
+
 [./] [] [SarsCov-2.tx]
 
 En la familia Corvidae se encuentras los alfa-coronavirus y beta-coronavirus 
@@ -74,7 +84,7 @@ unión del virus al receptor. Existen diversas estrategias de vacunas
 como usar virus atenuados o inactivados;una desventaja es que requiere de 
 mucho tiempo y una inversión alta de dinero.
 
-*Respuesta 2*
+**Respuesta 2:**
 
 [touch][][SarsCov-2_Spike.txt]
 
@@ -93,7 +103,7 @@ de la conformación de prefusión a posfusión
  
 # Parte IV 
  
-**Respuesta 1**
+**Respuesta 1:**
 
 [ln] [-s ~] [/filtered/splike_a.faa.txt]
 
@@ -130,11 +140,13 @@ rompen
 **Respuesta 6**
 
 [head] [-3]  [sarscov2_assembly.fasta.gz]
+
 >NODE_1_length_264_cov_161.042781
 CACAAATCTTAACACTCTTCCCTACACGACGCTCTTCCGATCTACGCCGGGCCATTCGTA
 CGAACCGATACCTGTGGTAAAGGGTCCTACTGTATGGTGGTACACGAGTAGTAGCAAATG
 
 [head] [-3] [sarscov2_genome.fasta]
+
 >NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
 ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAA
 CGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAAC
@@ -142,10 +154,12 @@ CGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAAC
 **Respuesta 7**
 
 [grep]  [‘>’]  [sarscov2_assembly.fasta.gz | wc -l]
- ### 35
+ *35*
+
 [grep] [‘>’] [sarscov2_genome.fasta | wc -l]
-       1
-**Respuesta 8**
+ *1*
+ 
+**Respuesta 8:**
 
 [head] [-12]  [SRR10971381_R2.fastq]
 @SRR10971381.512_2
@@ -163,7 +177,7 @@ FFFFFFFFFFFFAFFFAFFFFFF6A//F//FFF
 
 
 [grep] [‘@‘] [SRR10971381_R2.fastq | wc -l]
-### 130022
+*130022*
 
 **Respuesta 9**
 
@@ -183,6 +197,6 @@ less muestra la información seguida.
 **Respuesta 11**
 
 [cut]  [-f3] [ sarscov2_genome.gff3.txt | grep 'gene'| wc -l]
-### 11
+*11*
 CDS es una region que pertence a un gene 
 
