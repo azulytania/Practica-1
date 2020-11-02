@@ -1,0 +1,5 @@
+echo "Esta proteína se encarga se encarga mediar la union del coronavirus con la
+ célula huésped ya que contiene dos dominios (S1 y S2) que le van a permitir
+ unirse a receptores específicos. De igual forma, debe haber una transición
+ de la conformación de prefusión a posfusión"
+

@@ -1,0 +1,11 @@
+echo "En la familia Corvidae se encuentras los alfa-coronavirus y beta-coronavirus 
+SARS-coV2 que infectan principalmente a mamíferos; La estructura del genoma
+ya está estudiado lo que permite generar pruebas de PCR para su identificación
+así como las mutaciones que puedan presentarse en el. Durante la infección el
+ dominio S1 se une a los receptores de la célula así como proteínas
+ activadoras de la función de membranas. Conocer  la estructura molecular del 
+virus es importante para el desarrollo de vacunas o fármacos que bloqueen la
+ unión del virus al receptor. Existen diversas estrategias de vacunas
+ como usar virus atenuados o inactivados;una desventaja es que requiere de
+ mucho tiempo y una inversión alta de dinero."
+ 
